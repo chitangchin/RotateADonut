@@ -1,5 +1,7 @@
 # ASCII Donut in C#
 
+[![Test Validation](https://github.com/chitangchin/RotateADonut/actions/workflows/TestValidation.yml/badge.svg)](https://github.com/chitangchin/RotateADonut/actions/workflows/TestValidation.yml)
+
 This project is a C# console application that renders an animated rotating 3D donut (torus) using ASCII characters. It utilizes mathematical formulas to project 3D points onto a 2D plane and updates the console to animate the donut.
 
 ![2024-11-1809-14-39-ezgif com-resize](https://github.com/user-attachments/assets/2a959222-e980-40ba-b534-4f6b2636cdd5)
