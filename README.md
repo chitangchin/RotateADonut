@@ -17,9 +17,7 @@ This project is a C# console application that renders an animated rotating 3D do
   - [Rendering the Frame](#rendering-the-frame)
   - [Updating Rotation Angles](#updating-rotation-angles)
 - [Running the Program](#running-the-program)
-- [Mathematical Background](#mathematical-background)
-- [Visual Explanation](#visual-explanation)
-- [License](#license)
+- [Mathematical Detail](#mathematical-detail)
 
 ## Introduction
 
@@ -247,7 +245,7 @@ System.Threading.Thread.Sleep(30);
    - Build and run the project.
    - You should see the animated ASCII donut in the console window.
 
-## Mathematical Background
+## Mathematical Detail
 
 The program simulates a 3D torus by calculating the coordinates of points on its surface and projecting them onto a 2D plane.
 
@@ -280,7 +278,3 @@ A torus can be represented parametrically with two angles, `i` (theta) and `j` (
 
 - The luminance `N` is calculated based on the surface normal and a light source direction.
 - Different ASCII characters represent different levels of brightness.
-
-## Visual
-
-![OIP](https://github.com/user-attachments/assets/71064265-d4f1-48bc-9add-f8b5df2ddd22)
